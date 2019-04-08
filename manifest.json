@@ -1,0 +1,17 @@
+{
+    "name": "955.WLB",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "firefox extension of 955.WLB",
+    "icons": {
+        "48": "icons/icon_48.png"
+    },
+    "browser_action": {
+        "default_icon": "icons/icon_48.png",
+        "default_title": "995.WLB",
+        "default_popup": "popup/index.html"
+    },
+    "permissions": [
+        "activeTab"
+    ]
+}
