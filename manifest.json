@@ -13,5 +13,14 @@
     },
     "permissions": [
         "activeTab"
-    ]
+    ],
+    "content_scripts": [
+      {
+          "matches": ["https://www.lagou.com/*"],
+          "js": ["content.js"]
+      }
+    ],
+    "web-accessible_resources": [
+        "assets/iculogo.svg"
+    ] 
 }

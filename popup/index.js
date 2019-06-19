@@ -1,10 +1,7 @@
 const footer = document.querySelector('.footer');
-footer.addEventListener(onNavClick)
-alert(footer);
+footer.addEventListener('click', onNavClick);
 function onNavClick(e) {
-  console.log(e);
-  alert(e.target.name)
-  if(e && e.target.name === 'NAV') {
-
+  if(e && e.target.nodeName === 'NAV') {
+    const currentKey  = e.target.attributes.key.nodeValue;
   }
 }

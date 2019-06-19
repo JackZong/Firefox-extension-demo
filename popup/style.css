@@ -6,6 +6,12 @@ html, body {
     height: 500px;
     padding: 0 20px;
 }
+.wrapper .list {
+    display: none;
+}
+.wrapper .about {
+    display: none;
+}
 .title {
     text-align: center;
 }
